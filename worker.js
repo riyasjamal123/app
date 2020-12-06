@@ -1,8 +1,8 @@
-var CACHE_NAME = 'pwa-pldds';
+var CACHE_NAME = 'pwa-apar';
 var urlsToCache = [
     '/'
 ];
-  
+
 // Install a service worker
 self.addEventListener('install', event => {
     // Perform install steps
@@ -14,7 +14,7 @@ self.addEventListener('install', event => {
         })
     );
 });
-  
+
 // Cache and return requests
 self.addEventListener('fetch', event => {
     event.respondWith(
@@ -29,10 +29,10 @@ self.addEventListener('fetch', event => {
       )
     );
 });
-  
+
 // Update a service worker
 self.addEventListener('activate', event => {
-    var cacheWhitelist = ['pwa-pldds'];
+    var cacheWhitelist = ['pwa-apar'];
     event.waitUntil(
       caches.keys().then(cacheNames => {
         return Promise.all(
