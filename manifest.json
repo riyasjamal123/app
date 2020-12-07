@@ -1,6 +1,6 @@
 {
   "name": "Paddy Leaf Disease Detection System",
-  "short_name": "PLDDS",
+  "short_name": "apar",
   "description":"Find diseases in Paddy leaf",
   "icons": [
     {
@@ -50,7 +50,7 @@
     }
   ],
   "scope": "/",
-  "start_url": "/pldds/",
+  "start_url": "/apar/",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#000000",
